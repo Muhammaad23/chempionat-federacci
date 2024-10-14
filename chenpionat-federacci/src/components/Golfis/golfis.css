@@ -1,0 +1,29 @@
+.Golfa-style{
+    background: #eafdf5;
+    width: 100%;
+    height: 207px;
+}
+
+.img-geo{
+    font-size: 18px;
+    text-align: center;
+}
+
+.skrol-1{
+    margin-left: 23px;
+}
+
+.img-geo-1{
+    font-size: 16px;
+    text-align: center;
+    color: #18B3D4;
+}
+
+@media (max-width:414px) {
+    .img-geo-1{
+        font-size: 12px;
+    }
+    .img-geo{
+        font-size: 13px;
+    }
+}

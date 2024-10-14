@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.geo-about_1{
+    font-size: 50px;
+    color: #2A4C51;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.alies-geo{
+    font-size: 24px;
+    color:#2A4C51 ;
+}
+
+.about-geoo{
+    color: gray;
+    margin: auto;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.about-1{
+    width: 100%;
+    height: 863px;
+    background: #f9f9f9;
+}
+
+.about-2{
+    display: flex;
+    justify-content:space-around;
+}
+
+.About_img{
+    background: url(/public/images/8.png);
+    background-size: 100% 100%;
+    width: 350px;
+    height: 228px;
+}
+
+.About_img1{
+    background: url(/public/images/10.png);
+    background-size: 100% 100%;
+    width: 350px;
+    height: 228px;
+}
+
+.About_img2{
+    background: url(/public/images/11.png);
+    background-size: 100% 100%;
+    width: 350px;
+    height: 228px;
+}
+
+.about-button{
+    border: 1px solid #18B3D4;
+    background: none;
+    color: white;
+    width: 155px;
+    height: 53px;
+    border-radius: 10px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.alies-geeo{
+    font-size: 22px;
+}
+
+.about-button:hover{
+    background: #18B3D4;
+    transition: .5s;
+}
+
+.style-about{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.button-1{
+    border: none;
+    background: #18B3D4;
+    color: white;
+    width: 155px;
+    height: 53px;
+    border-radius: 10px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+@media (min-width: 414px){
+    .container{
+    max-width: 414px;
+    }
+    .about-2{
+        flex-wrap: wrap;
+        flex: 0 0 auto;
+    }
+    .about-1{
+        display: block;
+    }
+    .About_img,.About_img1,.About_img2{
+        margin: auto;
+    }
+    .about-geoo{
+        font-size: 15px;
+    }
+    .alies-geeo{
+        font-size: 16px;
+    }
+}
+@media (min-width: 830px){
+    .container{
+    max-width: 920px;
+    }
+    .about-2{
+        flex-wrap: wrap;
+        flex: 0 0 auto;
+    }
+    .about-geoo{
+        font-size: 16px;
+    }
+    .about-geo-1{
+        font-size: 20px;
+    }
+}
+@media (min-width: 360px){
+    .container{
+    max-width: 360px;
+    }
+    .about-2{
+        flex-wrap: wrap;
+        flex: 0 0 auto;
+    }
+    .about-geoo{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .alies-geeo{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 920px){
+    .container{
+    max-width: 920px;
+    }
+    .about-2{
+        flex-wrap: wrap;
+        flex: 0 0 auto;
+    }
+}

@@ -1,0 +1,40 @@
+.react-list{
+    text-align: center;
+}
+
+.react-input{
+    display: flex;
+}
+
+.Router-inputt{
+    border: none;
+    width: 286px;
+    height: 48px;
+    background: rgb(227, 227, 227);
+    border-radius: 12px;
+    padding: 15px;
+    color: #2A4C51;
+}
+
+.Router-inputt:focus{
+    border: none;
+    background: rgb(241, 240, 240);
+    transition: 1s;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,label {
+    margin: 0.4rem 0;
+}
+
+.Golfa-style p:hover{
+    color: black;
+}

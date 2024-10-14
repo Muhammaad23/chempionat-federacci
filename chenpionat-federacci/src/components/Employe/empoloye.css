@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.kill{
+    display: flex;
+    justify-content: center;
+}
+
+.color-p{
+    font-size: 20px;
+}
+
+.color-galareya{
+    color: rgb(1, 51, 35);
+    font-size: 36px;
+}
+
+.color_p{
+    font-size: 16px;
+}
+
+@media (max-width:560px) {
+    
+}
+
+@media (max-width:414px) {
+    .color-galareya{
+        font-size: 24px;
+    }
+    .color-p{
+        font-size: 15px;
+    }
+    .color_p{
+        font-size: 14px;
+    }
+}

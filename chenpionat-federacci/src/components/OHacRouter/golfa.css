@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Navbar-stykic{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.onclik-style{
+    max-width: 490px;
+    font-size: 20px;
+}
+
+.golfa-h2{
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    color: #2A4C51;
+}
+
+.golfa-geo{
+    font-size: 32px;
+    color: #2A4C51;
+}
+
+.router-images{
+    width: 526px;
+    height: 358px;
+}
+
+.img-1{
+    width: 100%;
+    height: 5px;
+    background: rgb(232, 231, 231);
+}
+
+.logo a{
+    margin-left: 32px;
+}
+
+.navbaar{
+    display: flex;
+    align-items: center;
+    background: white;
+    width: 100%;
+    height: 84px;
+    border: 1px #f2f2f2 solid;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.a-geo-1{
+    display: none;
+}
+
+#cars{
+    background: #2A4C51;
+    width: 142px;
+    height: 44px;
+    border: 1px solid white;
+}
+
+@media (max-width:414px) {
+    .kret{
+        flex: 0 0 auto;
+        flex-wrap: wrap;
+    }    
+    .golfa-h2{
+        padding-top: 100px;
+    }
+    .router-images{
+        width: 370px;
+        height: auto;
+        padding: 0 0 0 15px;
+    }
+    .onclik-p{
+        text-align: center;
+        align-items: center;
+    }
+    .golfa-geo{
+        font-size: 20px;
+    }
+    .onclik-style{
+        text-align: center;
+        font-size: 14px;
+    }
+    .a-geo-1{
+        display: block;
+        margin-top: -60px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:560px) {
+    .kret{
+        flex: 0 0 auto;
+        flex-wrap: wrap;
+    }    
+    .golfa-h2{
+        font-size: 18px;
+    }
+    .onclik-p{
+        text-align: center;
+        align-items: center;
+    }
+    .onclik-style{
+        text-align: center;
+    }
+}
+
+@media (max-width:720px) {
+    .kret{
+        flex: 0 0 auto;
+        flex-wrap: wrap;
+    }   
+    .a-geo{
+        display: none;
+    }
+    .onclik-p{
+        text-align: center;
+        align-items: center;
+    }
+    .onclik-style{
+        text-align: center;
+    }
+}
+
+@media (max-width:920px) {
+    .kret{
+        flex: 0 0 auto;
+        flex-wrap: wrap;
+    }    
+    .golfa-h2{
+        font-size: 20px;
+    }
+}

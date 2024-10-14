@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dark-wep{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.fride{
+    display: flex;
+    justify-content: center;
+}
+.main-h2{
+    color: #2A4C51;
+    font-size: 36px;
+}
+
+.geo{
+    font-size: 23px;
+    color: rgb(84, 84, 84);
+}
+
+.index_img{
+    width: 120px;
+    height: 330px;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    margin-top: -40px;
+}
+
+.geo-1{
+    font-size: 23px;
+    text-align: center;
+}
+
+.geo-2{
+    max-width: 400px;
+    text-align: center;
+    font-size: 18px;
+    color: #546266;
+}
+
+@media (max-width:414px){
+    .fride{
+        flex: 0 0 auto;
+        flex-wrap: wrap;
+    }
+    .geo{
+        font-size: 13px;
+    }
+    .main-h2{
+        font-size: 18px;
+    }
+    .geo-1{
+        font-size: 16px;
+    }
+    .geo-2{
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width:560px){
+    .fride{
+        flex: 0 0 auto;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 720px){
+    .fride{
+        flex: 0 0 auto;
+        flex-wrap: wrap;
+    }
+    .index-img{
+        display: none;
+    }
+}
+
+@media (max-width: 920px){
+    .fride{
+        flex: 0 0 auto;
+        flex-wrap: wrap;
+    }
+}

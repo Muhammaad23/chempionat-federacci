@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.style-geo{
+    font-size: 36px;
+    color: #2A4C51;
+}
+
+.geo-style{
+    font-size: 20px;
+    
+}
+
+@media (max-width:414px) {
+    .game-images-list{
+        flex: 0 0 auto;
+        flex-wrap: wrap;
+        width: 100% / 5;
+        display: flex;
+        margin: auto;
+    }
+    .Head-logo{
+        margin-bottom: 18px;
+    }
+    .style-geo{
+        font-size: 25px;
+    }
+    .geo-style{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:560px) {
+    .game-images-list{
+        flex: 0 0 auto;
+        flex-wrap: wrap;
+        width: 100% / 5;
+    }
+}
+
+@media (max-width:720px) {
+    .game-images-list{
+        flex: 0 0 auto;
+        flex-wrap: wrap;
+        width: 100% / 5;
+    }
+}
+

@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Login-images{
+    margin-left: 135px;
+    padding-top: 17px;
+    margin-bottom: 63px;
+}
+
+.Loginn{
+    background: #F1F2F6;
+    width: 972px;
+    height: 1024px;
+    border-radius: 24px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.just__img{
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    mix-blend-mode: multiply;
+    margin-top: -67px;
+    margin-left: 70px;
+}
+
+.Login-headd{
+    background: #FFFFFF;
+    padding: 15px;
+    width: 224px;
+    height: 115px;
+    border-radius: 14px;
+    box-shadow: 2px 4px 10px 2px rgba(203, 203, 203, 0.25);
+    margin-top: -120px;
+    margin-left: -65px;
+}
+
+.input-emaill{
+    width: 374px;
+    height: 46px;
+    border: none;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.img1{
+    margin-left: 90px;
+}
+
+.regis1, p{
+    font-size: 14px;
+}
+
+.regis1, label{
+    color: grey;
+    font-size: 14px;
+}
+.regis, p{
+    font-size: 14px;
+}
+
+.regis, label{
+    color: grey;
+    font-size: 14px;
+}
+
+input::placeholder{
+    color: #2A4C51;
+}
+
+.input-emaill,.input-password:focus{
+    color: #2A4C51;
+}
+
+.input-passwordd{
+    width: 374px;
+    height: 46px;
+    border: none;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.button__input{
+    border: none;
+    width: 374px;
+    height: 48px;
+    background: #18B3D4;
+    color: white;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.console{
+    display: flex;
+}
+
+@media (max-width:414px) {
+    .console{
+        flex: 0 0 auto;
+        flex-wrap: wrap;
+    }    
+    .just__img{
+        display: none;
+    }
+    .input-emaill,.button__input,.input-passwordd{
+        width: 250px;
+        height: 50px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .button__input{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .width-img{
+        margin-bottom: 40px;
+    }
+    .regis1 h3{
+        font-size: 22px;
+    }
+    .regis1{
+        margin-top: -25px;
+    }
+    .regis{
+        text-align: center;
+    }
+    .Loginn{
+        width: 380px;
+        height: auto;
+        margin-top: 150px;
+        margin-bottom: 70px;
+    }
+    .Login-headd{
+        width: 380px;
+        margin-left: 5px;
+        background: rgb(243, 242, 242);
+        position: absolute;
+        z-index: -99;
+    }
+}
+
+
+
